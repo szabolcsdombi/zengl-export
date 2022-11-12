@@ -11,9 +11,9 @@ with open('README.md') as readme:
 
 setup(
     name='zengl-export',
-    version='0.1.0',
+    version='0.1.1',
     ext_modules=[ext],
-    install_requires=['zengl>=1.9.3'],
+    install_requires=['zengl>=1.10.0'],
     license='MIT',
     python_requires='>=3.6',
     platforms=['any'],
